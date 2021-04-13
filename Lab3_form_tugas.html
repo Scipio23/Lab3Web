@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Lanjutan</title>
+</head>
+<body>
+        <link rel="stylesheet" href="dropdown_style.css" type="text/css">
+        <title>HTML Lanjutan</title>
+        <style>
+            h1{
+            font-size: 24px;
+            color: #000000;
+            text-align: center;
+            padding: 20px 10px;
+            }
+        </style>
+    </head>
+<body>
+    <!-- Dropdown Menu -->
+    <header class="header">
+        <div class="menu-web">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown"><a href="#">Blog</a>
+                    <ul class="isi-dropdown">
+                        <li><a href="#">Website</a></li>
+                        <li><a href="#">Artikel Bebas</a></li>
+                    </ul>
+
+                <li class="dropdown"><a href="#">Tentang Kami</a>
+                    <ul class="isi-dropdown">
+                        <li><a href="#">Alamat</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <br/>
+
+    <center>
+        <h1> Praktikum 3 </br> Dropdown Menu dan Listbox </h1>
+    </center>
+        
+
+    <div id="isi">
+        <p><b>Menu List Multi</b></p>
+    </br>Sparepart:
+        <!-- Listbox Multiple Selection -->
+        <select name="ddl" size="4" multiple>
+            <option value="Bamper Depan">Bamper Depan</option>
+            <option value="Bamper Belakang">Bamper Belakang</option>
+            <option value="Side skirt">Side skirt</option>
+            <option value="Head Lamp">Head Lamp</option>
+            <option value="Velg">Velg</option>
+        </select>
+    </div>
+</body>
+</html>
